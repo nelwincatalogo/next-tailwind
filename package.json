@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint || npx pretty-quick",
+    "lint": "next lint",
+    "fix-lint": "npx pretty-quick",
     "export": "next build && next export",
     "prepare": "husky install"
   },
