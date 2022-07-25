@@ -1,8 +1,6 @@
-import type { NextPage } from "next";
-import { useAlert } from "react-alert";
-
-import Head from "next/head";
-import Image from "next/image";
+import type { NextPage } from 'next';
+import { useAlert } from 'react-alert';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   const alert = useAlert();
@@ -19,9 +17,9 @@ const Home: NextPage = () => {
         <div className="text-red-500 font-bold">Hello World</div>
         <button
           onClick={() => {
-            alert.success("Yeyyy!");
-            alert.error("Yeyyy!");
-            alert.info("Yeyyy!");
+            alert.success('Yeyyy!');
+            alert.error('Yeyyy!');
+            alert.info('Yeyyy!');
           }}
         >
           Alert
