@@ -3,14 +3,14 @@
     "baseUrl": ".",
     "paths": {
       "@/styles/*": ["src/styles/*"],
-      "@/presentation/*": ["src/presentation/*"],
+      "@/components/*": ["src/components/*"],
       "@/app/*": ["src/app/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
