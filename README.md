@@ -10,7 +10,11 @@ Run the following command to bootstrap your next-app using this template:
 
 ```
 yarn create next-app [project-name] -e https://github.com/nelwincatalogo/next-tailwind
-# or
+```
+
+OR
+
+```
 npx create-next-app [project-name] -e https://github.com/nelwincatalogo/next-tailwind
 ```
 
@@ -29,6 +33,6 @@ npx create-next-app [project-name] -e https://github.com/nelwincatalogo/next-tai
 - Lint on pre-commit
   - Husky
   - pretty-quick
-- Default Font ( Poppins )
+- Default Font [Poppins, Inter]
 - TypeScript Support
 - Logs Remover on Production Build
